@@ -1,0 +1,11 @@
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\bin\x64\Debug\MimikaraGoiN2.exe.config
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\bin\x64\Debug\MimikaraGoiN2.exe
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\bin\x64\Debug\MimikaraGoiN2.pdb
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.csproj.ResolveComReference.cache
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.Form1.resources
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.Properties.Resources.resources
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.csproj.GenerateResource.cache
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.csproj.CoreCompileInputs.cache
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.exe
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.pdb
+C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Debug\MimikaraGoiN2.csprojAssemblyReference.cache
