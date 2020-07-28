@@ -93,7 +93,7 @@ namespace MimikaraGoiN2
             enlistXls(lstEng, 3);
             enlistXls(lstVie, 4);
             enlistXls(lstFurigana, 5);
-            MessageBox.Show("はじめましう");
+            MessageBox.Show("始めましょう");
         }
 
         private void enlistXls(List<string> list, int colIdx)
@@ -152,6 +152,7 @@ namespace MimikaraGoiN2
             buttonFuriganaSelect.Enabled = true;
             buttonNextQuestion.Enabled = false;
             // Clear text
+            textBoxResult.Text = "";
             textBoxWord.Text = "";
             textBoxEng.Text = "";
             textBoxExample.Text = "";
@@ -233,12 +234,12 @@ namespace MimikaraGoiN2
                 && isCheckBoxTrue(checkBoxC) && isCheckBoxTrue(checkBoxD);
             if(checkBoxTrue)
             {
-                MessageBox.Show("〇");
+                textBoxResult.Text = "〇";
                 score++;
             }
             else
             {
-                MessageBox.Show("✖");
+                textBoxResult.Text = "✖";
             }
             buttonNextQuestion.Enabled = true;
             buttonFuriganaSelect.Enabled = false;
