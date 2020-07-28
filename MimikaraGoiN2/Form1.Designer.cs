@@ -38,9 +38,9 @@ namespace MimikaraGoiN2
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.checkBoxD = new System.Windows.Forms.CheckBox();
+            this.checkBoxA = new System.Windows.Forms.CheckBox();
             this.checkBoxC = new System.Windows.Forms.CheckBox();
             this.checkBoxB = new System.Windows.Forms.CheckBox();
-            this.checkBoxA = new System.Windows.Forms.CheckBox();
             this.buttonFuriganaSelect = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxWord = new System.Windows.Forms.TextBox();
@@ -125,6 +125,16 @@ namespace MimikaraGoiN2
             this.checkBoxD.Text = "D";
             this.checkBoxD.UseVisualStyleBackColor = true;
             // 
+            // checkBoxA
+            // 
+            this.checkBoxA.AutoSize = true;
+            this.checkBoxA.Location = new System.Drawing.Point(13, 9);
+            this.checkBoxA.Name = "checkBoxA";
+            this.checkBoxA.Size = new System.Drawing.Size(38, 19);
+            this.checkBoxA.TabIndex = 11;
+            this.checkBoxA.Text = "A";
+            this.checkBoxA.UseVisualStyleBackColor = true;
+            // 
             // checkBoxC
             // 
             this.checkBoxC.AutoSize = true;
@@ -145,16 +155,6 @@ namespace MimikaraGoiN2
             this.checkBoxB.Text = "B";
             this.checkBoxB.UseVisualStyleBackColor = true;
             // 
-            // checkBoxA
-            // 
-            this.checkBoxA.AutoSize = true;
-            this.checkBoxA.Location = new System.Drawing.Point(13, 9);
-            this.checkBoxA.Name = "checkBoxA";
-            this.checkBoxA.Size = new System.Drawing.Size(38, 19);
-            this.checkBoxA.TabIndex = 11;
-            this.checkBoxA.Text = "A";
-            this.checkBoxA.UseVisualStyleBackColor = true;
-            // 
             // buttonFuriganaSelect
             // 
             this.buttonFuriganaSelect.Location = new System.Drawing.Point(443, 78);
@@ -163,6 +163,7 @@ namespace MimikaraGoiN2
             this.buttonFuriganaSelect.TabIndex = 11;
             this.buttonFuriganaSelect.Text = "選択";
             this.buttonFuriganaSelect.UseVisualStyleBackColor = true;
+            this.buttonFuriganaSelect.Click += new System.EventHandler(this.buttonFuriganaSelect_Click);
             // 
             // label4
             // 
@@ -220,6 +221,7 @@ namespace MimikaraGoiN2
             this.buttonNextQuestion.TabIndex = 18;
             this.buttonNextQuestion.Text = "次";
             this.buttonNextQuestion.UseVisualStyleBackColor = true;
+            this.buttonNextQuestion.Click += new System.EventHandler(this.buttonNextQuestion_Click);
             // 
             // Form1
             // 
