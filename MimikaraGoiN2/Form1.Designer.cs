@@ -60,7 +60,7 @@ namespace MimikaraGoiN2
             this.comboBoxUnit.FormattingEnabled = true;
             this.comboBoxUnit.Location = new System.Drawing.Point(188, 16);
             this.comboBoxUnit.Name = "comboBoxUnit";
-            this.comboBoxUnit.Size = new System.Drawing.Size(317, 41);
+            this.comboBoxUnit.Size = new System.Drawing.Size(291, 41);
             this.comboBoxUnit.TabIndex = 0;
             // 
             // label1
@@ -76,9 +76,9 @@ namespace MimikaraGoiN2
             // buttonUnitSelect
             // 
             this.buttonUnitSelect.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonUnitSelect.Location = new System.Drawing.Point(528, 15);
+            this.buttonUnitSelect.Location = new System.Drawing.Point(485, 15);
             this.buttonUnitSelect.Name = "buttonUnitSelect";
-            this.buttonUnitSelect.Size = new System.Drawing.Size(114, 42);
+            this.buttonUnitSelect.Size = new System.Drawing.Size(237, 42);
             this.buttonUnitSelect.TabIndex = 2;
             this.buttonUnitSelect.Text = "選択";
             this.buttonUnitSelect.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@ namespace MimikaraGoiN2
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.Location = new System.Drawing.Point(24, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 34);
+            this.label2.Size = new System.Drawing.Size(155, 33);
             this.label2.TabIndex = 3;
             this.label2.Text = "Tiếng Việt";
             // 
@@ -99,7 +99,7 @@ namespace MimikaraGoiN2
             this.textBoxVie.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBoxVie.Location = new System.Drawing.Point(188, 67);
             this.textBoxVie.Name = "textBoxVie";
-            this.textBoxVie.Size = new System.Drawing.Size(454, 40);
+            this.textBoxVie.Size = new System.Drawing.Size(534, 40);
             this.textBoxVie.TabIndex = 4;
             // 
             // label3
@@ -108,7 +108,7 @@ namespace MimikaraGoiN2
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.Location = new System.Drawing.Point(27, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 34);
+            this.label3.Size = new System.Drawing.Size(108, 33);
             this.label3.TabIndex = 5;
             this.label3.Text = "フリガナ";
             // 
@@ -120,7 +120,7 @@ namespace MimikaraGoiN2
             this.panel1.Controls.Add(this.checkBoxB);
             this.panel1.Location = new System.Drawing.Point(188, 127);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(317, 168);
+            this.panel1.Size = new System.Drawing.Size(291, 168);
             this.panel1.TabIndex = 10;
             // 
             // checkBoxD
@@ -129,7 +129,7 @@ namespace MimikaraGoiN2
             this.checkBoxD.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.checkBoxD.Location = new System.Drawing.Point(13, 127);
             this.checkBoxD.Name = "checkBoxD";
-            this.checkBoxD.Size = new System.Drawing.Size(59, 38);
+            this.checkBoxD.Size = new System.Drawing.Size(58, 37);
             this.checkBoxD.TabIndex = 14;
             this.checkBoxD.Text = "D";
             this.checkBoxD.UseVisualStyleBackColor = true;
@@ -140,7 +140,7 @@ namespace MimikaraGoiN2
             this.checkBoxA.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.checkBoxA.Location = new System.Drawing.Point(13, 14);
             this.checkBoxA.Name = "checkBoxA";
-            this.checkBoxA.Size = new System.Drawing.Size(59, 38);
+            this.checkBoxA.Size = new System.Drawing.Size(58, 37);
             this.checkBoxA.TabIndex = 11;
             this.checkBoxA.Text = "A";
             this.checkBoxA.UseVisualStyleBackColor = true;
@@ -151,7 +151,7 @@ namespace MimikaraGoiN2
             this.checkBoxC.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.checkBoxC.Location = new System.Drawing.Point(13, 93);
             this.checkBoxC.Name = "checkBoxC";
-            this.checkBoxC.Size = new System.Drawing.Size(60, 38);
+            this.checkBoxC.Size = new System.Drawing.Size(59, 37);
             this.checkBoxC.TabIndex = 13;
             this.checkBoxC.Text = "C";
             this.checkBoxC.UseVisualStyleBackColor = true;
@@ -162,7 +162,7 @@ namespace MimikaraGoiN2
             this.checkBoxB.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.checkBoxB.Location = new System.Drawing.Point(13, 54);
             this.checkBoxB.Name = "checkBoxB";
-            this.checkBoxB.Size = new System.Drawing.Size(59, 38);
+            this.checkBoxB.Size = new System.Drawing.Size(58, 37);
             this.checkBoxB.TabIndex = 12;
             this.checkBoxB.Text = "B";
             this.checkBoxB.UseVisualStyleBackColor = true;
@@ -170,9 +170,9 @@ namespace MimikaraGoiN2
             // buttonFuriganaSelect
             // 
             this.buttonFuriganaSelect.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonFuriganaSelect.Location = new System.Drawing.Point(528, 127);
+            this.buttonFuriganaSelect.Location = new System.Drawing.Point(485, 127);
             this.buttonFuriganaSelect.Name = "buttonFuriganaSelect";
-            this.buttonFuriganaSelect.Size = new System.Drawing.Size(114, 52);
+            this.buttonFuriganaSelect.Size = new System.Drawing.Size(237, 52);
             this.buttonFuriganaSelect.TabIndex = 11;
             this.buttonFuriganaSelect.Text = "選択";
             this.buttonFuriganaSelect.UseVisualStyleBackColor = true;
@@ -184,7 +184,7 @@ namespace MimikaraGoiN2
             this.label4.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label4.Location = new System.Drawing.Point(24, 312);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 34);
+            this.label4.Size = new System.Drawing.Size(81, 33);
             this.label4.TabIndex = 12;
             this.label4.Text = "単語";
             // 
@@ -193,7 +193,7 @@ namespace MimikaraGoiN2
             this.textBoxWord.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBoxWord.Location = new System.Drawing.Point(188, 309);
             this.textBoxWord.Name = "textBoxWord";
-            this.textBoxWord.Size = new System.Drawing.Size(454, 40);
+            this.textBoxWord.Size = new System.Drawing.Size(534, 40);
             this.textBoxWord.TabIndex = 13;
             // 
             // label5
@@ -202,7 +202,7 @@ namespace MimikaraGoiN2
             this.label5.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label5.Location = new System.Drawing.Point(24, 368);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 34);
+            this.label5.Size = new System.Drawing.Size(112, 33);
             this.label5.TabIndex = 14;
             this.label5.Text = "English";
             // 
@@ -211,7 +211,7 @@ namespace MimikaraGoiN2
             this.textBoxEng.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.textBoxEng.Location = new System.Drawing.Point(188, 365);
             this.textBoxEng.Name = "textBoxEng";
-            this.textBoxEng.Size = new System.Drawing.Size(454, 40);
+            this.textBoxEng.Size = new System.Drawing.Size(534, 40);
             this.textBoxEng.TabIndex = 15;
             // 
             // label6
@@ -220,7 +220,7 @@ namespace MimikaraGoiN2
             this.label6.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label6.Location = new System.Drawing.Point(27, 411);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 34);
+            this.label6.Size = new System.Drawing.Size(48, 33);
             this.label6.TabIndex = 16;
             this.label6.Text = "例";
             // 
@@ -230,15 +230,15 @@ namespace MimikaraGoiN2
             this.textBoxExample.Location = new System.Drawing.Point(188, 411);
             this.textBoxExample.Multiline = true;
             this.textBoxExample.Name = "textBoxExample";
-            this.textBoxExample.Size = new System.Drawing.Size(454, 111);
+            this.textBoxExample.Size = new System.Drawing.Size(534, 111);
             this.textBoxExample.TabIndex = 17;
             // 
             // buttonNextQuestion
             // 
             this.buttonNextQuestion.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonNextQuestion.Location = new System.Drawing.Point(528, 247);
+            this.buttonNextQuestion.Location = new System.Drawing.Point(485, 247);
             this.buttonNextQuestion.Name = "buttonNextQuestion";
-            this.buttonNextQuestion.Size = new System.Drawing.Size(114, 48);
+            this.buttonNextQuestion.Size = new System.Drawing.Size(237, 48);
             this.buttonNextQuestion.TabIndex = 18;
             this.buttonNextQuestion.Text = "次";
             this.buttonNextQuestion.UseVisualStyleBackColor = true;
@@ -247,16 +247,16 @@ namespace MimikaraGoiN2
             // textBoxResult
             // 
             this.textBoxResult.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBoxResult.Location = new System.Drawing.Point(528, 191);
+            this.textBoxResult.Location = new System.Drawing.Point(485, 191);
             this.textBoxResult.Name = "textBoxResult";
-            this.textBoxResult.Size = new System.Drawing.Size(114, 40);
+            this.textBoxResult.Size = new System.Drawing.Size(237, 40);
             this.textBoxResult.TabIndex = 19;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(663, 534);
+            this.ClientSize = new System.Drawing.Size(734, 534);
             this.Controls.Add(this.textBoxResult);
             this.Controls.Add(this.buttonNextQuestion);
             this.Controls.Add(this.textBoxExample);

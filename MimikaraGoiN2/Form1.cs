@@ -47,7 +47,7 @@ namespace MimikaraGoiN2
         private void openWorkbook()
         {
             xlApp = new Excel.Application();
-            string fileName = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\\listN2.xlsx");
+            string fileName = Path.GetFullPath(Directory.GetCurrentDirectory() + @"\\list.xlsx");
             xlWorkbook = xlApp.Workbooks.Open(fileName);
         }
 
@@ -234,12 +234,12 @@ namespace MimikaraGoiN2
                 && isCheckBoxTrue(checkBoxC) && isCheckBoxTrue(checkBoxD);
             if(checkBoxTrue)
             {
-                textBoxResult.Text = "〇";
+                textBoxResult.Text = "🔴" + lstFurigana[questionIdx];
                 score++;
             }
             else
             {
-                textBoxResult.Text = "✖";
+                textBoxResult.Text = "✘" + lstFurigana[questionIdx];
             }
             buttonNextQuestion.Enabled = true;
             buttonFuriganaSelect.Enabled = false;
