@@ -51,7 +51,11 @@ namespace MimikaraGoiN2
             this.textBoxExample = new System.Windows.Forms.TextBox();
             this.buttonNextQuestion = new System.Windows.Forms.Button();
             this.textBoxResult = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBoxScore = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // comboBoxUnit
@@ -108,9 +112,9 @@ namespace MimikaraGoiN2
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.Location = new System.Drawing.Point(27, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 33);
+            this.label3.Size = new System.Drawing.Size(118, 33);
             this.label3.TabIndex = 5;
-            this.label3.Text = "フリガナ";
+            this.label3.Text = "ふりがな";
             // 
             // panel1
             // 
@@ -252,11 +256,39 @@ namespace MimikaraGoiN2
             this.textBoxResult.Size = new System.Drawing.Size(237, 40);
             this.textBoxResult.TabIndex = 19;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.textBoxScore);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Location = new System.Drawing.Point(5, 181);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(174, 114);
+            this.panel2.TabIndex = 21;
+            // 
+            // textBoxScore
+            // 
+            this.textBoxScore.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBoxScore.Location = new System.Drawing.Point(3, 70);
+            this.textBoxScore.Name = "textBoxScore";
+            this.textBoxScore.Size = new System.Drawing.Size(168, 40);
+            this.textBoxScore.TabIndex = 22;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label7.Location = new System.Drawing.Point(20, 13);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(88, 33);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "スコア";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 534);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBoxResult);
             this.Controls.Add(this.buttonNextQuestion);
             this.Controls.Add(this.textBoxExample);
@@ -278,6 +310,8 @@ namespace MimikaraGoiN2
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,6 +339,9 @@ namespace MimikaraGoiN2
         private System.Windows.Forms.TextBox textBoxExample;
         private System.Windows.Forms.Button buttonNextQuestion;
         private System.Windows.Forms.TextBox textBoxResult;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBoxScore;
     }
 }
 

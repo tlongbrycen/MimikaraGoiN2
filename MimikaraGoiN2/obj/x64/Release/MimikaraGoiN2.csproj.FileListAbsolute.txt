@@ -8,4 +8,3 @@ C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Release\Mimikara
 C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Release\MimikaraGoiN2.exe
 C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Release\MimikaraGoiN2.pdb
 C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Release\MimikaraGoiN2.csproj.ResolveComReference.cache
-C:\Users\tlong\source\repos\MimikaraGoiN2\MimikaraGoiN2\obj\x64\Release\MimikaraGoiN2.csprojAssemblyReference.cache

@@ -80,7 +80,7 @@ namespace MimikaraGoiN2
         {
             selectedUnit = comboBoxUnit.SelectedIndex;
             importDataXls();
-            questionIdx = 1;
+            questionIdx = 0;
             showQuestion(questionIdx);
         }
 
@@ -99,7 +99,7 @@ namespace MimikaraGoiN2
         private void enlistXls(List<string> list, int colIdx)
         {
             String str = "一";
-            int rowIdx = 1;
+            int rowIdx = 2;
             while(true)
             {
                 str = xlWorksheet.Cells[rowIdx, colIdx].Text;
@@ -246,6 +246,7 @@ namespace MimikaraGoiN2
             textBoxWord.Text = lstWords[questionIdx];
             textBoxExample.Text = lstExample[questionIdx];
             textBoxEng.Text = lstEng[questionIdx];
+            textBoxScore.Text = score.ToString() + "/" + lstFurigana.Count().ToString();
         }
     }
 }
